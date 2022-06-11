@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1600px) {
+    body {
+        height: 1450px;
+    }
+
+    #container_top {
+        height: 400px;
+    }
+
+    .nickname {
+        top: 60px;
+        width: 800px;
+    }
+
+    .real_name {
+        top: 0px;
+        
+        width: 800px;
+    }
+
+    #container_mid {
+        position: absolute;
+
+        top: 500px;
+    }
+
+    /* Container for nickname */
+    #container_info {
+        position: relative;
+        margin: 0px auto;
+        width: 90%;
+        height: inherit;
+    }
+    
+    .mid_title {
+        font-size: 80px;
+        width: 400px;
+        top: 210px;
+        left: -150px;
+    }
+    
+    .lower {
+        font-size: 80px;
+        width: 350px;
+        top: 150px;
+        left: -125px;
+    }
+
+    .item_container {
+        height: 380px;
+    }
+
+    #store_item {
+        width: 340px;
+    }
+
+    .item_image {
+        width: 288px;
+        height: 280px;
+    }
+
+    .item_image img {
+        height: 280px;
+    }
+
+    .item_name {
+        font-size: 40px;
+    }
+
+    #hr {
+        width: 50%;
+        top: 970px;
+    }
+    
+    footer {
+        top: 1450px;
+    }
+}
