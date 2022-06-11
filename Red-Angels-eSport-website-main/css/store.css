@@ -1,0 +1,210 @@
+body {
+    height: 1700px;
+}
+
+/* Container for nickname */
+#container_info {
+    background-color: rgba(255, 0 , 0, 0);
+    position: relative;
+    margin: 0px auto;
+    width: 1536px;
+    height: inherit;
+}
+
+
+#container_top { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url('../img/store_background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 50%;
+    transition: 0s linear;
+    transition-property: background-position;
+    
+    position: absolute;
+    
+    top: 100px;
+    
+    width: 100%;
+    height: 500px;
+}
+
+.nickname {
+    font-size: 150px;
+    font-family: 'Saira', sans-serif;
+    color: #fff;
+    top: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.real_name {
+    font-size: 50px;
+    font-family: 'InversionzUnboxed', sans-serif;
+    letter-spacing: -5px;
+    color: #00ffff;
+    top: 35px;
+    width: 100%;
+    padding: 0px 10px;
+    position: relative;
+}
+
+
+#container_groups {
+    position: relative;
+    top: 600px;
+    
+    display: block;
+    
+    width: 100%;
+    height: 550px;
+    margin: 0 0 20px 0;
+}
+
+.title {
+    font-size: 100px;
+    letter-spacing: -5px;
+    width: 500px;
+    top: 250px;
+    left: -200px;
+    position: absolute;
+    text-align: right;
+    transform: rotate(270deg);
+}
+
+.item_container {
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    left: 7%;
+    top: 20px;
+    padding: 20px 0px; 
+    
+    font-family: 'Saira', sans-serif;
+    font-size: 24px;
+    
+}
+
+#store_item {
+    height: 100%;
+    width: 400px;
+    
+    position: relative;
+    top: 0px;
+    left: 20px;
+    
+    margin: 0 20px;
+    
+    display: inline-block;
+}
+
+.item_image {
+    width: 360px;
+    height: 350px;
+    margin: 0px auto;
+    
+    position: relative;
+    margin: 20px;
+    
+    font-size: 48px;
+    font-family: 'Saira', sans-serif;
+}
+
+.item_image img {
+    height: 350px;
+}
+
+.item_name {
+    width: 90%;
+    margin: 0px auto;
+    
+    position: relative;
+    top: 0px;
+    
+    font-size: 48px;
+    font-family: 'Saira', sans-serif;
+}
+
+.item_price {
+    width: 90%;
+    margin: 0px auto;
+    
+    position: relative;
+    top: -20px;
+    
+    font-size: 24px;
+    text-align: right;
+}
+
+#container_lower {
+    position: absolute;
+    
+    top: 1200px;
+    
+    width: 100%;
+    height: 400px;
+}
+
+.lower_info {
+    padding: 0px 0px; 
+}
+
+#hr {
+    width: 50%;
+    height: auto;
+    position: relative;
+    top: 605px;
+    margin: 0px auto;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    top: 1900px;
+    
+    width: 100%;
+    height: 200px;
+    background-color: #111111;
+    
+    color: #fff;
+}
+
+.copyright {
+    width: 410px;
+    height: 100px;
+    
+    position: relative;
+    top: 50px;
+    left: 50px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.copyright_image {
+    display: inline-block;
+    opacity: 0.2;
+}
+
+.copyright_text {
+    color: #555555;
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    position: relative;
+    top: -45px;
+}
+
+/* Animation */
+/*
+#container_top {
+    color: white;
+    animation: blink 0.8s infinite;
+    animation-direction: alternate;
+    animation-timing-function: steps(1, start);
+}
+
+@keyframes blink {
+    92% {
+       background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url('../img/background3.jpg');
+    }
+}*/
